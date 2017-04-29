@@ -1,6 +1,8 @@
 import numpy as np
 import ttt as t
-import node
+from GraphNode import GraphNode
+from List import List
+
 
 #zahlen = [[0,15,-15],[15,0,-15],[15,0,-15]]
 #np.savetxt("zahlen.txt",zahlen)
@@ -8,12 +10,19 @@ import node
 #zahlenIn = np.loadtxt("zahlen.txt")
 #print(zahlenIn)
 
-t.set(0)
-t.set(5)
-t.set(4)
-t.set(6)
-t.set(8)
-print(t.getStatus())
 
-n = GraphNode.init("tst")
+#n = GraphNode("tst")
 
+#n.test("test")
+#print(n.getName())
+
+l = List("testListe")
+l.append("Object1")
+l.append("Object2")
+l.append("Object3")
+l.toFirst()
+l.gotoNext()
+
+print("Empty: " + str(l.isEmpty()))
+print("Access: " + str(l.hasAccess()))
+print(str(l.getObject()))

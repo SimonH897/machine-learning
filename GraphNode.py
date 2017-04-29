@@ -1,9 +1,8 @@
 class GraphNode:
 	marked = False
 	
-	
-	def init(self,pName):
-		name = pName
+	def __init__(self,pName):
+		self.name = pName
 		
 	def mark(self):
 		marked = True
@@ -14,7 +13,7 @@ class GraphNode:
 	def ismarked(self):
 		return(marked)
 
-	def getName():
-		return name
-
-n = GraphNode.init("tst")
+	def getName(self):
+		return self.name
+		
+	#def addEdge(self, neighbour, 
