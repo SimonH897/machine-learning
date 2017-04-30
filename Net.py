@@ -4,3 +4,4 @@ class Net:
 		self.name = name 
 	
 	def addNode(self, GraphNode, pNode):
+		node = GraphNode(pNode)
