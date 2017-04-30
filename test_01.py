@@ -11,7 +11,8 @@ from List import List
 #print(zahlenIn)
 
 
-#n = GraphNode("tst")
+n = GraphNode("GraphNode1")
+o = GraphNode("GraphNode2")
 
 #n.test("test")
 #print(n.getName())
@@ -26,3 +27,4 @@ l.gotoNext()
 print("Empty: " + str(l.isEmpty()))
 print("Access: " + str(l.hasAccess()))
 print(str(l.getObject()))
+

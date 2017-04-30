@@ -5,13 +5,13 @@ class GraphNode:
 		self.name = pName
 		
 	def mark(self):
-		marked = True
+		self.marked = True
 	
 	def unmark(self):
-		marked = False
+		self.marked = False
 	
-	def ismarked(self):
-		return(marked)
+	def isMarked(self):
+		return(self.marked)
 
 	def getName(self):
 		return self.name
