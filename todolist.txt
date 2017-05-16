@@ -1,9 +1,9 @@
 1. tictactoe Spielmechanik
-	-simple abfrage
+	-(done)simple abfrage
 	-input output
-	-Notation
+	-(done)Notation
 		-felder zahlen 1-9
 		-zug <=> Nummer des Felds
 	
 2. DAS NETZ
-	-
+	-Matrixdarstellung ausgeben und einlesen
